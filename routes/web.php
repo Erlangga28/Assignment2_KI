@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
   
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SignPadController;
 
   
 
@@ -81,3 +82,6 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
     Route::get('/admin/home', [HomeController::class, 'adminHome'])->name('admin.home');
 
 });
+
+Route::get('/home/signpad', [SignPadController::class, 'index']);
+Route::post('/home/signpad', [SignPadController::class, 'save'])->name('signpad.save');

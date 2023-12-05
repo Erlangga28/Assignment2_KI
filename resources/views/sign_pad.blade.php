@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Laravel Signature Pad Example - MyNotePaper.com</title>
+    <title>PDF Digital Signature</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -24,7 +24,7 @@
             <div class="col-md-6 offset-md-3 mt-5">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Laravel Signature Pad Example - MyNotePaper.com</h5>
+                        <h5>PDF Digital Signature Pad</h5>
                     </div>
                     <div class="card-body">
                         @if (session('success'))
